@@ -32,6 +32,9 @@ a {
   color: var(--white-color);
 }
 /* Шапка */
+.header-section {
+  background-color: var(--white-color);
+}
 .active {
   color: var(--highlight-color);
 }
@@ -41,18 +44,19 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-list a:hover,
-.nav-list a:focus,
-.contacts-list a:hover,
-.contacts-list a:focus {
-  color: var(--highlight-color);
-}
-.сontacts-list {
+.contacts-list {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
+}
+.nav-list a:hover,
+.nav-list a:focus,
+.contacts-list a:hover,
+.contacts-list a:focus {
+  color: var(--highlight-color);
 }
 /* Герой */
 .hero {
@@ -102,6 +106,9 @@ a {
   color: var(--main-text-color);
 }
 /* Наша команда */
+.our-team-section {
+  background-color: #f5f4fa;
+}
 .our-team-title {
   font-weight: bold;
   font-size: 36px;
@@ -164,12 +171,15 @@ a {
 }
 .address {
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .contacts {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
